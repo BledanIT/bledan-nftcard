@@ -1,0 +1,173 @@
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+body {
+  font-family: "Outfit", sans-serif;
+  font-weight: 300;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-size: 18px;
+  color: hsl(0, 0%, 100%);
+  margin: auto auto;
+  background-color: hsl(217, 54%, 11%);
+  width: 100%;
+}
+
+main {
+  margin: 8% auto;
+  padding: 1.5rem 1.6rem;
+  width: 20rem;
+  border-radius: 10px;
+  background-color: hsl(216, 50%, 16%);
+}
+main h1 {
+  font-family: "Outfit", sans-serif;
+  font-weight: 600;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-size: 1.4rem;
+  color: hsl(0, 0%, 100%);
+}
+
+a {
+  color: hsl(0, 0%, 100%);
+  text-decoration: none;
+  transition: linear 0.3s;
+}
+a:hover {
+  color: hsl(178, 100%, 50%);
+}
+
+p {
+  font-family: "Outfit", sans-serif;
+  font-weight: 300;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-size: 1rem;
+  color: hsl(215, 51%, 70%);
+  line-height: 1.7;
+  margin-bottom: 0;
+}
+
+.image-container {
+  position: relative;
+  display: block;
+  margin: auto auto;
+  width: 100%;
+  height: 100%;
+  min-width: fit-content;
+  min-height: fit-content;
+  margin-bottom: 1.5rem;
+  transition: linear 0.3s;
+}
+.image-container img {
+  display: block;
+  max-width: 100%;
+  border-radius: 10px;
+}
+.image-container .overlay {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  transition: 0.3s linear;
+  background-color: hsla(178, 100%, 50%, 0.5);
+  border-radius: 10px;
+  cursor: pointer;
+}
+.image-container .overlay:hover {
+  opacity: 1;
+}
+
+.flex {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.flex p:first-of-type {
+  font-family: "Outfit", sans-serif;
+  font-weight: 600;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-size: 1rem;
+  color: hsl(178, 100%, 50%);
+}
+.flex p {
+  font-family: "Outfit", sans-serif;
+  font-weight: 400;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-size: 1rem;
+  color: hsl(215, 51%, 70%);
+}
+
+.view, .clock, .eth {
+  height: 1rem;
+  width: 1rem;
+  display: inline;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  margin-right: 0.4rem;
+  position: relative;
+  top: 0.15rem;
+}
+
+.eth {
+  content: url("./images/icon-ethereum.svg");
+  width: 0.65rem;
+}
+
+.clock {
+  content: url("./images/icon-clock.svg");
+}
+
+.view {
+  content: url("./images/icon-view.svg");
+  width: 20%;
+  height: 20%;
+  text-align: center;
+  position: absolute;
+  top: 40%;
+  left: 40%;
+}
+
+hr {
+  border: 0;
+  width: 100%;
+  height: 0.05rem;
+  background: hsl(215, 51%, 70%);
+  opacity: 0.2;
+  margin: 1rem 0;
+}
+
+.avatar {
+  display: inline;
+  border: solid hsl(0, 0%, 100%) 1px;
+  border-radius: 50%;
+  width: 12%;
+  height: 12%;
+  vertical-align: middle;
+}
+
+.nftcredit {
+  display: inline;
+  padding-left: 0.8rem;
+  font-family: "Outfit", sans-serif;
+  font-weight: 400;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-size: 0.9rem;
+  color: hsl(215, 51%, 70%);
+}
+.nftcredit span {
+  color: hsl(0, 0%, 100%);
+}
+
+/*# sourceMappingURL=styles.css.map */
